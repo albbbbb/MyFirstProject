@@ -1,0 +1,30 @@
+import java.util.Random;
+
+public class exercise {
+    public static void main(String[] args){
+        Random random = new Random();
+
+        int number1;
+        int number2;
+        double number3;
+
+        number1 = random.nextInt(1,101);
+        number2 = random.nextInt(1,101);
+        number3 = random.nextDouble();
+
+
+        System.out.println(number1);
+        System.out.println(number2);
+        System.out.println(number3);
+
+        boolean isHeads;
+        isHeads = random.nextBoolean();
+
+        if(isHeads){
+            System.out.println("Heads");
+        }
+        else{
+            System.out.println("Tails");
+        }
+    }
+}
